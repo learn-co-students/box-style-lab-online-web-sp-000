@@ -5,8 +5,11 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
-  background-image: url("white-wood.jpg");
-  background-size: cover;
+  background-image: url("white-wood.jpg"); /*image used*/
+  background-size: cover;/*cover whole background*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;/*want background image to stay when we scroll*/
+  background: linear-gradient(to right, #FFF, #000);/*added gradient*/
 }
 
 .container, h1 {
