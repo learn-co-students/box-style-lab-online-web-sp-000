@@ -1,5 +1,6 @@
 body, html {
-  background: url("../images/white-wood.jpg");
+  background:  url("../images/white-wood.jpg") no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
   font-family: Apple Chancery, cursive;
@@ -75,5 +76,7 @@ h4.dubious {
 }
 
 img {
-  border: solid;
+  border: 1px solid #635a5a;
+  box-sizing: border-box;
+  box-shadow: -1px 1px #8a7e7e, -2px 2px #8a7e7e, -3px 3px #8a7e7e, -4px 4px, -5px 5px #8a7e7e ;
 }
