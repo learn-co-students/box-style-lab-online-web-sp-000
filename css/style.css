@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   width: 100%;
   height: 100%;
   font-family: Apple Chancery, cursive;
@@ -7,7 +8,11 @@ body, html {
   text-align: center;
 }
 
-.container, h1 {
+body {
+  background-image: url('../images/white-wood.jpg');
+}
+.container,
+h1 {
   width: 80%;
   max-width: 600px;
   min-width: 400px;
@@ -24,16 +29,26 @@ h4 {
 
 .amiable {
   border: 1px solid #22aa44;
-  box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
+  box-shadow: -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44,
+    -4px 4px #22aa44, -5px 5px #22aa44;
+  background: linear-gradient(to right, #ffffff22, #00000022);
   background-color: #44cc66;
-
 }
 
 .indifferent {
+  border: 1px solid #aaaa11;
+  box-shadow: -1px 1px #aaaa11, -2px 2px #aaaa11, -3px 3px #aaaa11,
+    -4px 4px #aaaa11, -5px 5px #aaaa11;
+  background: linear-gradient(to right, #ffffff22, #00000022);
   background-color: #dddd22;
 }
 
 .dubious {
+  border: 1px solid #bb324f;
+  box-shadow: -1px 1px #bb324f, -2px 2px #bb324f, -3px 3px #bb324f,
+    -4px 4px #bb324f, -5px 5px #bb324f;
+  background: linear-gradient(to right, #ffffff22, #00000022);
+
   background-color: #dd4444;
 }
 
@@ -53,4 +68,8 @@ h4 {
 
 .large {
   width: 303%;
+}
+
+img {
+  border: 2px solid #aaa;
 }
