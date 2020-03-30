@@ -54,3 +54,20 @@ h4 {
 .large {
   width: 303%;
 }
+
+img{
+  border: 1px solid #000000
+}
+
+
+img:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 1.5);
+}
+
+body{
+  background-image: url("../images/white-wood.jpg")
+}
+
+body{
+  background: linear-gradient(white, gray, black) 
+}
