@@ -20,21 +20,28 @@ h4 {
   display: inline-block;
   padding: 5px;
   margin: 20px 0 0 0;
+  
 }
 
 .amiable {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
-
+  background: linear-gradient(to right, #44cc66, #22aa44);
 }
 
 .indifferent {
+  border: 1px solid #E6B12C;
+  box-shadow: -1px 1px #E6B12C, -2px 2px #E6B12C, -3px 3px #E6B12C, -4px 4px #E6B12C, -5px 5px #E6B12C;
   background-color: #dddd22;
+  background: linear-gradient(to right, #dddd22, #E6B12C);
 }
 
 .dubious {
+  border: 1px solid #911B19;
+  box-shadow: -1px 1px #911B19, -2px 2px #911B19, -3px 3px #911B19, -4px 4px #911B19, -5px 5px #911B19;
   background-color: #dd4444;
+  background: linear-gradient(to right, #dd4444, #911B19)
 }
 
 .column {
@@ -54,3 +61,14 @@ h4 {
 .large {
   width: 303%;
 }
+
+img {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+html {
+  background-image: url("/Users/nathanst.amand/Documents/GitHub/box-style-lab-online-web-sp-000/images/white-wood.jpg");
+}
+
