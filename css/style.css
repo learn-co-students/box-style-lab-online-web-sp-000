@@ -54,3 +54,10 @@ h4 {
 .large {
   width: 303%;
 }
+
+img{
+  border-style: solid;
+  box-sizing:border-box;
+  border-width: 1px;
+  border-color: #696969;
+}
