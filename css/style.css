@@ -5,6 +5,8 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
+  background: url("../images/white-wood.jpg") no-repeat fixed;
+  background-size: cover;
 }
 
 .container, h1 {
@@ -61,4 +63,5 @@ h4 {
 
 img {
   border-style: solid;
+  box-sizing: border-box;
 }
