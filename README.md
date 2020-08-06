@@ -26,7 +26,7 @@ This lab is a great time to practice editing CSS directly in Chrome Inspector
 Tools. This allows us to change properties/values on the fly and see what they
 look like on screen before going back and editing the actual CSS file. 
 
-
+##
 ## Instructions
 
 - Examine what we have rendering already by opening `index.html` in the browser
