@@ -5,6 +5,8 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
+  background-image: url(../images/white-wood.jpg);
+  background-size: cover;
 }
 
 .container, h1 {
@@ -13,8 +15,14 @@ body, html {
   min-width: 400px;
   padding: 10px;
   margin: 10px auto;
+  box-sizing: border-box;
 }
-
+img {
+  border-width: 1px;
+  border: solid;
+  border-color: darkgrey;
+  box-sizing: border-box;
+}
 h4 {
   width: fit-content;
   display: inline-block;
