@@ -20,6 +20,7 @@ h4 {
   display: inline-block;
   padding: 5px;
   margin: 20px 0 0 0;
+  background: linear-gradient(to right, #FFF, #000)
 }
 
 .amiable {
@@ -31,10 +32,12 @@ h4 {
 
 .indifferent {
   background-color: #dddd22;
+  box-shadow: -1px 1px #9b870c, -2px 2px #9b870c, -3px 3px #9b870c, -4px 4px #9b870c, -5px 5px #9b870c;
 }
 
 .dubious {
   background-color: #dd4444;
+  box-shadow: -1px 1px #8B0000, -2px 2px #8B0000, -3px 3px #8B0000, -4px 4px #8B0000, -5px 5px #8B0000;
 }
 
 .column {
@@ -53,4 +56,7 @@ h4 {
 
 .large {
   width: 303%;
+}
+body {
+  background: url("../images/white-wood.jpg") no-repeat fixed center;
 }
