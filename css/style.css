@@ -12,6 +12,8 @@ html {
 	background-size: cover;
 	background-attachment: fixed;
 	/* when scrolling, the background stays fixed but the elements scroll on top of it */
+
+	/* SHORTHAND: background: url("../images/white-wood.jpg") no-repeat fixed; */
 }
 
 .container,
@@ -35,10 +37,23 @@ img {
 	box-sizing: border-box;
 }
 
+img:hover {
+	transition-duration: 1s;
+	transform: scale(1.05);
+}
+
 .amiable {
 	border: 1px solid #22aa44;
 	box-shadow: -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
 	background-color: #44cc66;
+}
+
+h4.amiable {
+	background: linear-gradient(to right, #22aa44, #44cc66);
+}
+
+h4.amiable:hover {
+	background: linear-gradient(to right, #66ee88, #118833);
 }
 
 .indifferent {
@@ -48,6 +63,14 @@ img {
 	background-color: #dddd22;
 }
 
+h4.indifferent {
+	background: linear-gradient(to right, rgb(171, 169, 54), #dddd22);
+}
+
+h4.indifferent:hover {
+	background: linear-gradient(to right, #aa0, #770);
+}
+
 .dubious {
 	border: 1px solid rgb(157, 48, 42);
 	box-shadow: -1px 1px rgb(157, 48, 42), -2px 2px rgb(157, 48, 42), -3px 3px rgb(157, 48, 42),
@@ -55,16 +78,12 @@ img {
 	background-color: #dd4444;
 }
 
-h4.amiable {
-	background: linear-gradient(to right, #22aa44, #44cc66);
-}
-
-h4.indifferent {
-	background: linear-gradient(to right, rgb(171, 169, 54), #dddd22);
-}
-
 h4.dubious {
 	background: linear-gradient(to right, rgb(157, 48, 42), #dd4444);
+}
+
+h4.dubious:hover {
+	background: linear-gradient(to right, #a00, #700);
 }
 
 .column {
