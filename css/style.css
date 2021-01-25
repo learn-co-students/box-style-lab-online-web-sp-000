@@ -5,8 +5,10 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
-  background-image: url("./images/white-wood.jpg");
-  background-repeat: repeat;
+}
+
+body{
+  background-image: url("../images/white-wood.jpg");
   background-size: cover;
 }
 
@@ -23,6 +25,7 @@ h4 {
   display: inline-block;
   padding: 5px;
   margin: 20px 0 0 0;
+  background: linear-gradient(to right, #FFF, rgb(184, 184, 184));
 }
 
 .amiable {
@@ -62,4 +65,5 @@ h4 {
 
 img {
   border: solid;
+  box-sizing: border-box;
 }
