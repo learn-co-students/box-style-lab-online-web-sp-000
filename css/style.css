@@ -31,10 +31,12 @@ h4 {
 
 .indifferent {
   background-color: #dddd22;
+  box-shadow:  -1px 1px #c2c21d, -2px 2px #c2c21d, -3px 3px #c2c21d, -4px 4px #c2c21d, -5px 5px #c2c21d;
 }
 
 .dubious {
   background-color: #dd4444;
+  box-shadow:  -1px 1px #c23232, -2px 2px#c23232, -3px 3px #c23232, -4px 4px #c23232, -5px 5px #c23232;
 }
 
 .column {
@@ -53,4 +55,27 @@ h4 {
 
 .large {
   width: 303%;
+}
+
+img {
+  border: 1px solid grey;
+  box-sizing: border-box
+}
+
+body {
+  background-image: url(../images/white-wood.jpg);
+  background-size: cover;
+  
+}
+
+h4.amiable {
+  background: linear-gradient(to right, #44cc66, #138f32)
+}
+
+h4.dubious {
+  background: linear-gradient(to right, #dd4444, #a30e0e)
+}
+
+h4.indifferent {
+  background: linear-gradient(to right, #dddd22, #5c5c06)
 }
