@@ -30,10 +30,14 @@ h4 {
 }
 
 .indifferent {
+  border: 1px solid #bdbd1c;
+  box-shadow: -1px 1px #bdbd1c, -2px 2px #bdbd1c, -3px 3px #bdbd1c, -4px 4px #bdbd1c, -5px 5px #bdbd1c;
   background-color: #dddd22;
 }
 
 .dubious {
+  border: 1px solid #aa3535;
+  box-shadow: -1px 1px #aa3535, -2px 2px #aa3535, -3px 3px #aa3535, -4px 4px #aa3535, -5px 5px #aa3535;
   background-color: #dd4444;
 }
 
@@ -49,8 +53,25 @@ h4 {
 
 .med {
   width: 203.5%;
-}
+} 
 
 .large {
   width: 303%;
+}
+
+img {
+  border: 2px rgb(100, 100, 100) solid;
+  box-sizing: border-box;
+}
+
+h4.amiable {
+  background-image: linear-gradient(to right, #22aa44, #115823 );
+}
+
+h4.indifferent {
+  background-image: linear-gradient(to right, #bdbd1c, #858515 );
+}
+
+h4.dubious{
+  background-image: linear-gradient(to right, #dd4444, #8f2d2d );
 }
